@@ -1,2 +1,2 @@
 # silver-winner
-Code Academy CSSFlex Project
+Code Academy CSSFlex Project Tea Cozy
