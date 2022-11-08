@@ -1,3 +1,131 @@
-h1{
-    color:red;
+*{
+    font-family: Helvetica, sans-serif;
+    color:rgba(255, 245, 238, 0.9);
+    background-color: black;
+    /*opacity: 0.9; /*not sure if opacity was supposed to be applied*/
+    
+}
+
+header{
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    display:inline-flex;
+    justify-content: space-between;
+    width:100%;
+    max-height:69px;
+    padding:15px 10px;
+    top: 0px;
+    align-content:center;
+    z-index: 10;
+}
+
+h2, h3, h4, h5{
+    text-align: center;
+}
+
+
+nav ul li{
+    color:white;
+    text-decoration: underline;
+    display:inline;
+    margin:5px;
+    position:relative;
+    right:15px;
+    font-size:22px;
+}
+
+
+
+#structure{
+    height:85px;
+} /*adding this moves the rest of the page down by 85px*/
+
+
+#mission{
+    width:1200px;
+    height:700px;
+    background-image: url("./img-mission-background.webp");
+    margin: 0 auto;
+    display:flex;
+}
+
+#mission-div{
+    margin:auto;
+    text-align: center;
+    width:100%;
+}
+
+
+#featured{
+    margin: 50px auto;
+}
+
+#feature-list{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    width: 1000px;
+    align-content: center;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#feature-list > li{
+    max-height:200px;
+    max-width:300px;
+    margin: 30px 15px;
+    text-align: center;
+}
+#feature-list li img{
+    width:100%;
+    margin:0;
+}
+#feature-list li h4{
+    width:100%;
+    margin:10px;
+}
+
+
+#locations{
+    background-image: url("./img-locations-background.jpg");
+    width:1200px;
+    height:500px;
+    margin: auto;
+    background-color: transparent;
+    
+}
+
+#locations > h2{
+    position:relative;
+    top:22px;
+    background-color:transparent;
+}
+
+#locations ul{
+    list-style: none;
+    background-color: none;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+#locations ul li{
+    width:300px;
+    height:300px;
+    margin:40px;
+    text-align: center;
+}
+
+#foot{
+    height:200px;
+}
+
+#copyright{
+    position:relative;
+    left:20px;
+    width:30%;
+    text-align: left;
 }
